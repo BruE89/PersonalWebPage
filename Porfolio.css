@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.selector-fuente-nombre{
+    font-family: Roboto Mono, monospace;
+    font-weight: 700;
+}
+
+.navbar{
+    padding-left: 50px !important;
+}
+
+.selector-fuente-titulo{
+    font-family: Roboto Mono, monospace;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.selector-fuente-descripcion{
+    font-family: Roboto Mono, monospace;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#intro {
+    font-size: 20px;
+    margin: 0;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 4px solid transparent;
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    background-image: url(https://drive.google.com/uc?export=view&id=1LuxFXszll4EIr2TlyxuqVzbv9bbV1k_c);
+    background-size: auto;
+    /*background-repeat: no-repeat;*/ /*buscar imagen mas grande*/
+}
+
+#titulo{
+    color:goldenrod
+}
+
+#seccion1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenedor_descripcion {
+    font-family: Roboto Mono ;
+    color: white;
+    padding: 100px;
+    width: 60vw;
+}
+
+#foto {
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+    height: fit-content;
+}
+
+#seccion2 {
+    margin-top: 100px;
+    background-color: darkblue;
+    height: auto;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+    margin-left: auto; /* Establece el margen izquierdo automático */
+    margin-right: auto;
+}
+
+#logo_linkedin {
+    background-image: url(https://drive.google.com/uc?export=view&id=1IF273Pg-wviweOvXOVyJOTaxGUBRkU4q);
+    background-size: 8cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 50px;
+}
+
+#logo_github {
+    background-image: url(https://drive.google.com/uc?export=view&id=1Xbfx8_IYSxrah-4UFQ1J_RMkYzb6CcDH);
+    background-size: 2cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 50px;
+}
+
+#logo_slack {
+    background-image: url(https://drive.google.com/uc?export=view&id=1emeshPHkmd8Z_UAtjToT1BfqOGtTSPfp);
+    background-size: 2cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 50px;
+}
+
+#logo_discord {
+    background-image: url(https://drive.google.com/uc?export=view&id=1DIOFsAkRZY1zOEJf9pM6VSTmKIqvALSV);
+    background-size: 2cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 50px;
+}
+
+.btn {
+    background-color: darkslateblue !important;
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap) format('woff2'),
+         url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap) format('woff');
+
+}
+
+@font-face{
+
+    font-family: RobotoItalic;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,100&display=swap) format('woff'),
+        url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,100&display=swap) format('woff2');
+
+}
+
